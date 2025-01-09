@@ -13,6 +13,7 @@ class LoginController extends Controller
 
     public function __construct(UserRepository $userRepository)
     {
+        /// this is dummy
         $this->userRepository = $userRepository;
     }
 

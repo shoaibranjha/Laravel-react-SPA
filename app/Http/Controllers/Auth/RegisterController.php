@@ -18,7 +18,7 @@ class RegisterController extends Controller
     public function register(RegisterRequest $request)
     {
         $user = $this->userRepository->create($request->validated());
-
+//// this is dummy code 
         return response()->json(['message' => 'User registered successfully'], 201);
     }
 }
